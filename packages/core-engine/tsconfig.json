@@ -1,7 +1,6 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "composite": true,
     "rootDir": "src",
     "outDir": "dist",
     "module": "NodeNext",
@@ -10,5 +9,5 @@
     "declaration": true,
     "declarationMap": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

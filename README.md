@@ -8,20 +8,18 @@ Below is a simple Mermaid graph showing the packages and their dependencies.
 
 ```mermaid
 graph TD
-	Root[repo root]
-	Core[packages/core-engine]\n(shared TS library)
-	CLI[packages/cli]\n(CLI tool)
-	Dashboard[apps/dashboard]\n(Vite + React)
+  Root["repo root"]
+  Core["packages/core-engine<br/>(shared TS library)"]
+  CLI["packages/cli<br/>(CLI tool)"]
+  Dashboard["apps/dashboard<br/>(Vite + React)"]
 
-	Root --> Core
-	Root --> CLI
-	Root --> Dashboard
+  Root --> Core
+  Root --> CLI
+  Root --> Dashboard
 
-	CLI --> Core
-	Dashboard --> Core
-```
-
-## Quickstart
+  CLI --> Core
+  Dashboard --> Core
+```## Quickstart
 
 Install dependencies:
 
