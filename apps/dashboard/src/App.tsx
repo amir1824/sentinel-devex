@@ -1,5 +1,5 @@
-import React from "react";
 import { formatMetric, Metric } from "@sentinel/core-engine";
+import React from "react";
 
 export default function App() {
   const m: Metric = { name: "requests", value: 123 };
