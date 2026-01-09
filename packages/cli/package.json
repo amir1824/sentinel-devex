@@ -1,0 +1,16 @@
+{
+  "name": "@sentinel/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "sentinel": "dist/bin/sentinel.js"
+  },
+  "scripts": {
+    "build": "tsc -b && chmod +x dist/bin/sentinel.js || true",
+    "start": "node dist/bin/sentinel.js"
+  },
+  "dependencies": {
+    "@sentinel/core-engine": "workspace:*"
+  }
+}

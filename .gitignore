@@ -1,0 +1,32 @@
+# Node
+node_modules/
+.pnp/
+
+# pnpm
+.pnpm/
+
+# Build output
+dist/
+**/dist/
+
+# Turborepo
+.turbo/
+
+# Vite / local caches
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# dotenv
+.env
+.env.*.local
